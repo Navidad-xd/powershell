@@ -26,7 +26,7 @@ if ($altura -eq ""){
 
 $alturaf = $altura / 100
 $resultado = $peso/($alturaf*$alturaf)
-Write-Host "El resultado es $resultado"
+Write-Host "Tu IMC es $resultado"
 
 if ($resultado -lt 18.5){
 Write-Host "Usted está demasiado flaco"
