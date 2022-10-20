@@ -29,18 +29,18 @@ $resultado = $peso/($alturaf*$alturaf)
 Write-Host "Tu IMC es $resultado"
 
 if ($resultado -lt 18.5){
-Write-Host "Usted está demasiado flaco"
+Write-Host "Bajo peso"
 }
 
-elseif ($resultado -lt 24.9){
-Write-Host "Usted tiene un peso normal"
+elseif ($resultado -lt 25){
+Write-Host "Normal"
 }
 
 
-elseif ($resultado -lt 29.9){
-Write-Host "Usted tiene sobrepeso"
+elseif ($resultado -lt 30){
+Write-Host "Sobrepeso"
 }
 
-elseif ($resultado -gt 30){
-Write-Host "Usted tiene obesidad"
+elseif ($resultado -ge 30){
+Write-Host "Obesidad"
 }
